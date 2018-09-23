@@ -1,0 +1,139 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;
+  width: 1680px;
+  margin: 0 auto;
+  margin: 0 auto; }
+
+ol, ul, li {
+  list-style: none;
+  display: inline-block; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*@include flex*/
+/*@include func_h1*/
+/*@include func_h2*/
+/*@include func_h3*/
+/* @include func_p*/
+/*  @include m0p0*/
+html {
+  width: 100%; }
+
+body {
+  background: #d68ff7;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 auto; }
+
+header {
+  position: relative;
+  overflow: hidden; }
+  header img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -3; }
+  header .header_blocks {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 880px 400px;
+    grid-template-rows: 200px 400px 200px;
+    grid-gap: 10px;
+    width: inherit; }
+    header .header_blocks .header_menu1 {
+      grid-column: 1;
+      grid-row: 1; }
+      header .header_blocks .header_menu1 .block1 img {
+        width: 100px;
+        height: 60px;
+        position: static;
+        border-radius: 20%;
+        margin-left: 300px; }
+      header .header_blocks .header_menu1 .block1 p {
+        margin-left: 300px;
+        color: #fff;
+        width: 400px;
+        font-size: 18px; }
+    header .header_blocks .header_menu2 {
+      margin: 0 auto;
+      padding: 0 auto;
+      grid-column: 1;
+      grid-row: 2; }
+      header .header_blocks .header_menu2 .block2 h1 {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 900; }
+      header .header_blocks .header_menu2 .block2 p {
+        padding-top: 100px;
+        width: 400px;
+        font-size: 28px;
+        text-transform: uppercase;
+        color: #fff; }
+    header .header_blocks .header_menu3 {
+      margin: 0 auto;
+      padding: 0 auto;
+      grid-column: 1;
+      grid-row: 3; }
+      header .header_blocks .header_menu3 .block3 img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%; }
+    header .header_blocks .header_menu4 {
+      margin: 0 auto;
+      padding: 0 auto;
+      grid-column: 2;
+      grid-row: 1; }
+    header .header_blocks .header_menu5 {
+      margin: 0 auto;
+      padding: 0 auto;
+      grid-column: 2;
+      grid-row: 2 / 3; }
+
+section {
+  position: relative;
+  width: 100%;
+  height: auto; }
+  section img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -3; }
